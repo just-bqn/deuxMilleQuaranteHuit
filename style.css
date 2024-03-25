@@ -1,0 +1,20 @@
+@import "nord.css";
+
+* {
+    font-family: JetBrainsMonoNL Nerd Font;
+    color: var(--nord0);
+    background-color: var(--nord8);
+}
+
+.game-board {
+    background-color: var(--nord9);
+    aspect-ratio: 1;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+
+.game-board tr td {
+    width: 10%;
+    height: 10%;
+}
